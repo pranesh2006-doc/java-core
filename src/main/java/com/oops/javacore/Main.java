@@ -26,5 +26,22 @@ public class Main {
         System.out.println(s1.name);
         System.out.println(s2.name);
 
+        //overloading constructor
+
+        User u1=new User();
+        User u2=new User("pranesh");
+        User u3=new User("teju","like");
+        User u4=new User("pranesh","t#16",21);
+
+        System.out.println(u1.name);
+        System.out.println(u1.age);
+        System.out.println(u2.name);
+        System.out.println(u3.name);
+        System.out.println(u4.age);
+
+
+
+
+
     }
 }
