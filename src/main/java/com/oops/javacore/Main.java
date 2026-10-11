@@ -15,5 +15,9 @@ public class Main {
        System.out.println(ch.name);
        System.out.println(ch.model);
        System.out.println(ch.price);
+       System.out.println(ch.color);
+
+       ch.start();
+       ch.end();
     }
 }
