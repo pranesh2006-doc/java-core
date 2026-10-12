@@ -39,7 +39,17 @@ public class Main {
         System.out.println(u3.name);
         System.out.println(u4.age);
 
+        //array of objects
 
+        Trend[] trend =new Trend[3];
+
+        trend[0]= new Trend("bmw",200);
+        trend[1]= new Trend("kmw",200);
+        trend[2]= new Trend("kmw",200);
+
+        for(int i=0;i< trend.length;i++){
+            trend[i].show();
+        }
 
 
 
