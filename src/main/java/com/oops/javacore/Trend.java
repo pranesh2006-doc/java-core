@@ -4,6 +4,8 @@ public class Trend {
     String name;
     int age;
 
+      static String head="fuckup";
+
     Trend(String name,int age){
         this.name=name;
         this.age=age;

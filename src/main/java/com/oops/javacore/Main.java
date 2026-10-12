@@ -48,10 +48,20 @@ public class Main {
         trend[2]= new Trend("kmw",200);
 
         for(int i=0;i< trend.length;i++){
+            trend[i].age=300;
+        }
+        for(int i=0;i< trend.length;i++){
             trend[i].show();
         }
 
+       //The `static` keyword in Java is used to define members that belong to the class rather than to individual objects.
+        //
+        //A static variable is shared among all objects of a class, while an instance variable has a separate copy for each object. Static methods can be called using the class name without creating an object.
+        //
+        //For example, `Math.max(10, 20)` can be called without creating a `Math` object because `max()` is a static method.
 
-
+         trend[0].show();
+        //static varible or static method is called using class , without creating the object or an instances itself
+        System.out.print(Trend.head);
     }
 }
