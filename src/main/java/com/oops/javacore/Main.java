@@ -8,6 +8,7 @@ package com.oops.javacore;
 //- main: Entry-point method name.
 //- String[] args: Receives command-line arguments.
 
+
 public class Main {
     public static void main(String[] args) {
 // Inheritance is a feature in Java where one class acquires accessible fields and methods from another class.
@@ -38,6 +39,11 @@ public class Main {
 
         dog2.eat();
         dog2.sound();
+
+//multiple inheritance works mainly using interface and extends,
+        //An interface is a contract that specifies what a class must do.
+       //an implement that used for inteface
+
 
 
     }
