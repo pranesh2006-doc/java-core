@@ -44,7 +44,10 @@ public class Main {
         //An interface is a contract that specifies what a class must do.
        //an implement that used for inteface
 
+Smartphone smartphone = new Smartphone();
 
+smartphone.edit();
+smartphone.photo();
 
     }
 }

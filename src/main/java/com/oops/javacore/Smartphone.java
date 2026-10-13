@@ -6,14 +6,14 @@ interface editing{
 }
 
 interface photoshop{
-    void photoshop();
+    void photo();
 }
 
-class Smartphone implements editing,photoshop{
-    public void photoshop(){
+class Smartphone implements editing ,photoshop {
+    public void photo(){
         System.out.println("Camera is working");
     }
-    public void editing(){
+    public void edit(){
         System.out.println("editing is done");
     }
 }
