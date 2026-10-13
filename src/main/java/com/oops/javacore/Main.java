@@ -27,6 +27,18 @@ public class Main {
       puppy.sound();
       puppy.weep();
 
+      //Hierarchical inheritance
+        //Multiple child classes inherit from the same parent class.
+
+        Dog dog2 = new Dog();
+        Cat cat = new Cat();
+
+        cat.eat();
+        cat.sound();
+
+        dog2.eat();
+        dog2.sound();
+
 
     }
 }
