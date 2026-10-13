@@ -18,5 +18,15 @@ public class Main {
         dog.eat();
         dog.sound();
 
+        //Multilevel inheritance
+        //A class inherits from a child class, forming a chain of inheritance.
+
+      Puppy  puppy = new Puppy();
+
+      puppy.eat();
+      puppy.sound();
+      puppy.weep();
+
+
     }
 }
