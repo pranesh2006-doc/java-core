@@ -1,5 +1,8 @@
 package com.oops.javacore;
 
+//this: Refers to the current class object's variables, methods, or constructor.
+
+//- super: Refers to the immediate parent class's variables, methods, or constructor.
 
 class Animal{
 
