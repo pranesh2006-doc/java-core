@@ -6,15 +6,22 @@ package com.oops.javacore;
 
 class Animal{
 
-    String name="world";
-
+    //variables
+    String name="Teju";
+   //Method
     void sound(){
         System.out.println("I'm a animal");
     }
+    //constructor
+    Animal(String last){
+        System.out.println("my name is "+last);
+    }
 }
 class Dog extends Animal{
-    String name="hello";
+    //variables
+    String name="Pranesh";
 
+    //Method
      @Override
      void sound(){
          System.out.println("I'm a dog");
@@ -28,7 +35,13 @@ class Dog extends Animal{
          this.sound();
          super.sound();
     }
+    //constructor
+    Dog(){
+         super("teju");
+         System.out.println("hey i luv u : "+this.name);
+    }
 }
+
 
 public class Main1 {
     public static void main(String[] args) {
@@ -36,6 +49,7 @@ public class Main1 {
         Dog dog = new Dog();
 
         dog.show();
+        dog.display();
 
     }
 }
