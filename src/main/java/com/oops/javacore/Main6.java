@@ -12,6 +12,9 @@ public class Main6 {
         System.out.println(list);
         list.add(1,"Teju love Pranesh");
         System.out.println(list);
+        list.remove(1);
+        System.out.println(list);
+        
     }
     
 }
