@@ -1,4 +1,4 @@
-package com.oops;
+package com.oops.javacore;
 import java.util.Scanner;
 //Compile-time polymorphism
 //Also called method overriding.
