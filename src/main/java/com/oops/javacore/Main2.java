@@ -1,4 +1,6 @@
 
+
+package com.oops.javacore;
 abstract class Shape {
     abstract double calculateArea();
 }
